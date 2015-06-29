@@ -1,7 +1,3 @@
-/* * {
-    outline: 2px solid red;
-} */
-
 * {
     box-sizing: border-box;
 }
@@ -42,6 +38,7 @@ a {
 .imageContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     width: 100%;
     min-width: 450px;
 }
@@ -61,8 +58,7 @@ a {
 
 img {
     width: 100%;
-    max-width: 150px;
-
+    height: auto;
 }
 
 footer {
@@ -73,7 +69,15 @@ footer {
     border-top: 1px solid #AAAAAA;
 }
 
-ul li {
+
+li {
     display: inline;
     margin: 0 10px;
+    padding-right: 5%;
+
+}
+
+span {
+    display: block;
+    word-wrap: break-word ;
 }
